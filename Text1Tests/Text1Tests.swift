@@ -5,32 +5,22 @@
 //  Created by Seth Du on 15/8/9.
 //  Copyright © 2015年 Seth Du. All rights reserved.
 //
-
+import UIKit
 import XCTest
 @testable import Text1
 
 class Text1Tests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+    func test1initialization()
+    {
+        let potentialitem = photodata(name: "newest Photo", photo: nil, rate: 5)
+        XCTAssertNotNil(potentialitem)
+        
+        let noname = photodata(name: "", photo: nil, rate: 0)
+        XCTAssertNil(noname, "Empty photo is invalid")
+        
+        let badrating = photodata(name: "bad rating", photo: nil, rate: -1)
+        XCTAssertNil(badrating, "It's really a bad rating")
     }
     
 }

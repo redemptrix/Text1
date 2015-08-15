@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DCB26B31B7EBF8B0039A7A4 /* ratingcontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB26B21B7EBF8B0039A7A4 /* ratingcontrol.swift */; };
+		5DCB26B51B7ED6540039A7A4 /* text1data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB26B41B7ED6540039A7A4 /* text1data.swift */; };
+		5DCB26B61B7ED6E50039A7A4 /* text1data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB26B41B7ED6540039A7A4 /* text1data.swift */; };
+		5DCB26B71B7ED6E50039A7A4 /* text1data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB26B41B7ED6540039A7A4 /* text1data.swift */; };
+		5DCB26BB1B7EDC610039A7A4 /* Text1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDB7F11B76658E00C497FB /* Text1Tests.swift */; };
+		5DCB26C01B7EE1AD0039A7A4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB26BE1B7EE1AD0039A7A4 /* TableViewController.swift */; };
+		5DCB26C11B7EE1AD0039A7A4 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DCB26BF1B7EE1AD0039A7A4 /* TableViewController.xib */; };
+		5DCB26C31B7EE1D50039A7A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB26C21B7EE1D50039A7A4 /* TableViewCell.swift */; };
 		5DCDB7DA1B76658D00C497FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDB7D91B76658D00C497FB /* AppDelegate.swift */; };
 		5DCDB7DC1B76658D00C497FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDB7DB1B76658D00C497FB /* ViewController.swift */; };
 		5DCDB7DF1B76658D00C497FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCDB7DD1B76658D00C497FB /* Main.storyboard */; };
@@ -35,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DCB26B21B7EBF8B0039A7A4 /* ratingcontrol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ratingcontrol.swift; sourceTree = "<group>"; };
+		5DCB26B41B7ED6540039A7A4 /* text1data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = text1data.swift; sourceTree = "<group>"; };
+		5DCB26BE1B7EE1AD0039A7A4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5DCB26BF1B7EE1AD0039A7A4 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		5DCB26C21B7EE1D50039A7A4 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5DCDB7D61B76658D00C497FB /* Text1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Text1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCDB7D91B76658D00C497FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DCDB7DB1B76658D00C497FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +115,12 @@
 				5DCDB7D91B76658D00C497FB /* AppDelegate.swift */,
 				5DCDB7DB1B76658D00C497FB /* ViewController.swift */,
 				5DCDB7DD1B76658D00C497FB /* Main.storyboard */,
+				5DCB26BE1B7EE1AD0039A7A4 /* TableViewController.swift */,
+				5DCB26BF1B7EE1AD0039A7A4 /* TableViewController.xib */,
 				5DCDB7E31B76658D00C497FB /* Assets.xcassets */,
+				5DCB26B21B7EBF8B0039A7A4 /* ratingcontrol.swift */,
+				5DCB26C21B7EE1D50039A7A4 /* TableViewCell.swift */,
+				5DCB26B41B7ED6540039A7A4 /* text1data.swift */,
 				5DCDB7E51B76658D00C497FB /* LaunchScreen.storyboard */,
 				5DCDB7E81B76658D00C497FB /* Info.plist */,
 				5DCDB7E01B76658D00C497FB /* Text1.xcdatamodeld */,
@@ -234,6 +252,7 @@
 				5DCDB7E71B76658D00C497FB /* LaunchScreen.storyboard in Resources */,
 				5DCDB7E41B76658D00C497FB /* Assets.xcassets in Resources */,
 				5DCDB7DF1B76658D00C497FB /* Main.storyboard in Resources */,
+				5DCB26C11B7EE1AD0039A7A4 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCB26B51B7ED6540039A7A4 /* text1data.swift in Sources */,
+				5DCB26C31B7EE1D50039A7A4 /* TableViewCell.swift in Sources */,
+				5DCB26C01B7EE1AD0039A7A4 /* TableViewController.swift in Sources */,
+				5DCB26B31B7EBF8B0039A7A4 /* ratingcontrol.swift in Sources */,
 				5DCDB7E21B76658D00C497FB /* Text1.xcdatamodeld in Sources */,
 				5DCDB7DC1B76658D00C497FB /* ViewController.swift in Sources */,
 				5DCDB7DA1B76658D00C497FB /* AppDelegate.swift in Sources */,
@@ -268,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCB26B61B7ED6E50039A7A4 /* text1data.swift in Sources */,
 				5DCDB7F21B76658E00C497FB /* Text1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCB26B71B7ED6E50039A7A4 /* text1data.swift in Sources */,
 				5DCDB7FD1B76658E00C497FB /* Text1UITests.swift in Sources */,
+				5DCB26BB1B7EDC610039A7A4 /* Text1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +513,7 @@
 				5DCDB8031B76658E00C497FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCDB8041B76658E00C497FB /* Build configuration list for PBXNativeTarget "Text1Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +522,7 @@
 				5DCDB8061B76658E00C497FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCDB8071B76658E00C497FB /* Build configuration list for PBXNativeTarget "Text1UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +531,7 @@
 				5DCDB8091B76658E00C497FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
